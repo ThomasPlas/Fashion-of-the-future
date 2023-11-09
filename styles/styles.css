@@ -65,7 +65,6 @@ h3 {
     font-weight: bolder;
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 0.5;
 }
 
 h4 {
@@ -227,7 +226,7 @@ margin-bottom: 0;
 
 /* over pagina */
 
-#over div{
+#over section>div{
     display: flex;
 }
 
@@ -243,8 +242,19 @@ margin-bottom: 0;
     margin-top: 2em;
 }
 
+#over p{
+    margin-top: 0;
+    margin-right: 0.5em;
+}
+
+#over div>img{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 2em;
+}
+
 #over img{
-    max-width: 100%;
+   max-width: 100%;
 }
 
 #over main{
@@ -286,6 +296,11 @@ margin-bottom: 0;
 #over main ul>li{
     font-family: sansnarrow;
     font-size: 1.3em;
+}
+
+#over footer div>img{
+    height: 3em;
+    width: 3em;
 }
 
 /*interview pagina*/
