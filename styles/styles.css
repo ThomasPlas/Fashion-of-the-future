@@ -185,7 +185,7 @@ footer>p{
     color: black;
 }
 
-#navigatiepagina a> div{
+#navigatiepagina main> a{
     border-bottom:4px solid black ;
     display: flex;
 }
