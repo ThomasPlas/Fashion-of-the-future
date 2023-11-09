@@ -43,6 +43,8 @@ header ul{
         color: white
     }
 
+/*tekst*/
+
 h2 {
     font-family: sansnarrow;
     font-size: 2.2em;
@@ -52,7 +54,7 @@ h2 {
 
 h3 {
     font-family: Akkurat;
-    font-size: 2.4em;
+    font-size: 1.9em;
     font-weight: bolder;
     text-transform: uppercase;
     margin-top: 0;
@@ -72,6 +74,11 @@ p {
     font-size: 1.3em;
 }
 
+/*footer*/
+footer div>img{
+    height: 3em;
+}
+
 footer{
     background: black;
     color: white;
@@ -79,10 +86,26 @@ footer{
 
 footer > div{
     display: flex;
+    padding-top: 1.5em;
 }
 
-footer h4{
-    margin-right: 3em;   
+footer h2{
+    font-size: 1em;
+    margin-left: 1.8em;
+    margin-bottom: 0.2em;
+}
+
+footer a{
+    color: white;
+}
+
+footer li{
+    font-family: sansnarrow;
+    font-size: 1em;
+}
+
+footer>p{
+    text-align: center;
 }
 
 /*landingpage*/
@@ -128,6 +151,18 @@ footer h4{
 
 
 /*navigatiepagina*/
+#navigatiepagina header{
+    display: flex;
+}
+
+#navigatiepagina header img{
+    height: 2em;
+    margin-right: 0.5em;
+}
+
+#navigatiepagina a{
+    padding: 0;
+}
 
 #navigatiepagina main{
     background-image:url("../images/achtergrond.jpg");
@@ -169,6 +204,10 @@ margin-top: 0.5em;
 margin-bottom: 0;
 }
 
+#navigatiepagina footer div>img{
+    height: 3em;
+    margin: 0;
+}
 
 /* over pagina */
 
@@ -261,8 +300,6 @@ margin-bottom: 0;
     transform: rotate(-4deg);
 }
 
-
-
 /*rondleiding*/
 
 div.scroll-container{
@@ -300,4 +337,26 @@ div.scroll-container img{
 #rondleiding main{
     background-image:url("../images/achtergrond2.jpg");
     background-size: cover;
+}
+
+#rondleiding main li{
+    background-color: rgb( 249,239,0);
+    color: black;
+    padding: 1.2em; 
+    border: 0.7em solid rgb(255, 222, 0);
+    list-style: none;
+    margin-bottom: 2em;
+    margin-right: 3em;
+    text-align: center;
+}
+
+#rondleiding main a{
+    padding-top: 3em; 
+    text-decoration: none;
+    color: black;
+}
+
+#rondleiding main li{
+    font-family: sansnarrow;
+    font-size: 1em;
 }
