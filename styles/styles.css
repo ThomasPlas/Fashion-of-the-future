@@ -26,7 +26,8 @@ header ul{
         margin-left: 0.5em;
         margin-right: 0.5em;
         margin-top: 1em;
-        font-size: 0.65em;
+        font-size: 0.7em;
+        font-family: sansnarrow;
     }
 
     header a {
@@ -44,6 +45,12 @@ header ul{
     }
 
 /*tekst*/
+h1{
+    font-family: Akkurat;
+    font-size: 2.4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 
 h2 {
     font-family: sansnarrow;
@@ -58,6 +65,7 @@ h3 {
     font-weight: bolder;
     text-transform: uppercase;
     margin-top: 0;
+    margin-bottom: 0.5;
 }
 
 h4 {
@@ -109,6 +117,10 @@ footer>p{
 }
 
 /*landingpage*/
+#landingpage p{
+    margin-bottom: 2em;
+}
+
 #landingpage footer{
     position: absolute;
     bottom: 0;
@@ -116,7 +128,7 @@ footer>p{
 }
 
 #landingpage img{
-    width: 20%;
+    width: 40%;
     display: block;
     margin: auto;
 }
@@ -209,6 +221,10 @@ margin-bottom: 0;
     margin: 0;
 }
 
+#navigatiepagina footer li>a{
+    color: white;
+}
+
 /* over pagina */
 
 #over div{
@@ -272,9 +288,6 @@ margin-bottom: 0;
     font-size: 1.3em;
 }
 
-
-
-
 /*interview pagina*/
 
 #interview{
@@ -300,6 +313,10 @@ margin-bottom: 0;
     transform: rotate(-4deg);
 }
 
+#interview main>section{
+    border-bottom:4px solid black ;
+    margin-bottom: 2em;
+}
 /*rondleiding*/
 
 div.scroll-container{
